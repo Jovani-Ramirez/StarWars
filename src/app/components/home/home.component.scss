@@ -1,0 +1,63 @@
+body {
+  background-image: url(../../../assets/background//back_3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+}
+
+.container-crds {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.example-card {
+  width: 25%;
+  margin: 40px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 20px;
+  background: rgb(221, 221, 187);
+  background: linear-gradient(180deg, rgba(221, 221, 187, 1) 0%, rgba(255, 255, 255, 1) 100%, rgba(0, 0, 0, 1) 100%);
+}
+
+.container-crds {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 24px;
+  margin-bottom: 10px !important;
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  font: 500;
+}
+
+button {
+  background: #ddddbb;
+  color: #000;
+  border-radius: 4px;
+  border: none;
+}
+
+.mat-tab-label-content {
+  color: #fff;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar {
+  background: #ddddbb;
+}
